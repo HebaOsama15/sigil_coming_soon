@@ -132,10 +132,9 @@ class SigilLandingPage extends StatelessWidget {
                   children: [
                     Padding(
                       padding: const EdgeInsets.only(right: 50.0),
-                      child: Flexible(
-                          child: Accounts(
-                        size: isLargeScreen ? 32 : 20,
-                      )),
+                      child: Accounts(
+                                              size: isLargeScreen ? 32 : 20,
+                                            ),
                     ),
                     SizedBox(height: 8.h),
                     Builder(
