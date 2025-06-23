@@ -43,14 +43,14 @@ class Accounts extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         iconButton(
-            size: size, icon: "assets/svg_images/tiktok2.svg", url: tiktokUrl),
+            size: size, icon: "assets/assets/svg_images/tiktok2.svg", url: tiktokUrl),
         // SizedBox(
         //   width: size.width * 0.02,
         // ),
         iconButton(
           size: size,
           url: linldenUrl,
-          icon: "assets/svg_images/linkedin2.svg",
+          icon: "assets/assets/svg_images/linkedin2.svg",
         ),
         // SizedBox(
         //   width: size.width * 0.02,
@@ -58,13 +58,13 @@ class Accounts extends StatelessWidget {
         iconButton(
           size: size,
           url: xUrl,
-          icon: "assets/svg_images/X2.svg",
+          icon: "assets/assets/svg_images/X2.svg",
         ),
         // SizedBox(
         //   width: size.width * 0.02,
         // ),
         iconButton(
-            size: size, url: instaUrl, icon: 'assets/svg_images/insta2.svg')
+            size: size, url: instaUrl, icon: 'assets/assets/svg_images/insta2.svg')
       ],
     );
   }
