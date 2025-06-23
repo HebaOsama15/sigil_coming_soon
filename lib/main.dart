@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sigil_web_page/comming_soon_page.dart';
-import 'package:sigil_web_page/new_comming_soon_page.dart';
 
 import 'test.dart';
 
