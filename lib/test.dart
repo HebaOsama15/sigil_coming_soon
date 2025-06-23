@@ -30,7 +30,7 @@ class SigilLandingPage extends StatelessWidget {
                 left: isLargeScreen ? 60 : 16,
                 child: SvgPicture.asset(
                   'assets/svg_images/star_icon.svg',
-                  height: isLargeScreen ? 68 : 48,
+                  height: isLargeScreen ? 68 : 58,
                 ),
                 // استبدل بـ SvgPicture.asset إذا كان لديك SVG
               ),
@@ -47,9 +47,9 @@ class SigilLandingPage extends StatelessWidget {
                       width: logoWidth,
                       height: logoHeight,
                     ),
-                    SizedBox(width: 20),
+                    SizedBox(width: 10),
                     Padding(
-                      padding: const EdgeInsets.only(top: 50.0),
+                      padding: EdgeInsets.only(top: isLargeScreen ? 50 : 40),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.end,
@@ -131,10 +131,10 @@ class SigilLandingPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(right: 50.0),
+                      padding: const EdgeInsets.only(right: 16.0),
                       child: Accounts(
-                                              size: isLargeScreen ? 32 : 20,
-                                            ),
+                        size: isLargeScreen ? 32 : 20,
+                      ),
                     ),
                     SizedBox(height: 8.h),
                     Builder(
