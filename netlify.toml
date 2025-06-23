@@ -1,0 +1,9 @@
+[build]
+  command = "flutter build web"
+  publish = "build/web"
+
+[build.environment]
+  FLUTTER_VERSION = "3.27.0" # أو عدليه حسب نسختك الفعلية
+
+[functions]
+  directory = "build/web/netlify/functions"
